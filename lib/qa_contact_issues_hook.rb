@@ -17,9 +17,9 @@ class QaContactIssuesHook < Redmine::Hook::ViewListener
     issue = context[:issue]
 
     if issue.qa_contact then
-      return "<tr><td><b>QA contact:</b></td><td> #{context[:issue].qa_contact.name}</td></tr>"
+      return "<tr><td><b>"+l(:field_qa_contact)+"</b></td><td> #{context[:issue].qa_contact.name}</td></tr>"
     else
-      return "<tr><td><b>QA contact:</b></td></tr>"
+      return "<tr><td><b>"+l(:field_qa_contact)+"</b></td><td> "+l(:qa_contact_not_assigned)+"</td></tr>"
     end
   end
 

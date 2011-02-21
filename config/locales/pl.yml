@@ -2,3 +2,4 @@
 pl:
   field_qa_contact: "Recenzent"
   label_qa_contact_issues: "Zagadnienia do zrecenzowania"
+  qa_contact_not_assigned: "Nie przypisano recenzenta"

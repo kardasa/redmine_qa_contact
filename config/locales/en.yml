@@ -2,3 +2,4 @@
 en:
   field_qa_contact: "Reviewer"
   label_qa_contact_issues: "Issues to review"
+  qa_contact_not_assigned: "Reviewer not assigned"
