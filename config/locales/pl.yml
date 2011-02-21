@@ -1,0 +1,4 @@
+# Polsih strings go here for Rails i18n
+pl:
+  field_qa_contact: "Recenzent"
+  label_qa_contact_issues: "Zagadnienia do zrecenzowania"

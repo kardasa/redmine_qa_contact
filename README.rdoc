@@ -1,3 +1,4 @@
 = qa_contact
 
-Description goes here
+Forked from orginal author: kushali repository.
+My fork was created to test usability of plugin for the needs of my company. I added polish translation and change QA Contact name to Reviewer - this is how it's called in my company.
